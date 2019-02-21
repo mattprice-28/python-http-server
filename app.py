@@ -12,7 +12,8 @@ info = {
 	"version": 1
 }
 with open('info.json', 'w') as outfile:
-    json.dump(info + "\n", outfile)
+    json.dump(str(info), outfile)
+    outfile.write("\n")
 
 # configure and run the server
 PORT = 9000
