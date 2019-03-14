@@ -3,8 +3,8 @@ Description=Python HTTP Server
 
 [Service]
 User=python
-WorkingDirectory=/opt/python-systemd-http-server/public
-ExecStart=/opt/python-systemd-http-server/app.py
+WorkingDirectory=/home/python/public
+ExecStart=/home/python/app.py
 
 [Install]
 WantedBy=multi-user.target
