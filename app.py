@@ -16,7 +16,7 @@ with open('info.json', 'w') as outfile:
     outfile.write("\n")
 
 # configure and run the server
-PORT = 9000
+PORT = 9001
 Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 httpd = SocketServer.TCPServer(("", PORT), Handler)
 httpd.serve_forever()
