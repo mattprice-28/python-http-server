@@ -10,6 +10,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)) + "/public")
 info = {
 	"host_name": socket.gethostname(),
 	"version": 1
+	"Test"
 }
 with open('info.json', 'w') as outfile:
     json.dump(str(info), outfile)
